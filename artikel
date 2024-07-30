@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Edukasi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body { font-family: 'Nunito', sans-serif; background-color: #f4f4f4; }
+        .header {
+            background-color: #5ac5cd;
+            color: white;
+            padding: 20px 0;
+            border-radius: 0 0 15px 15px;
+        }
+        h2 {
+            color: #5ac5cd;
+        }
+        .content { 
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 15px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .sidebar {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .related-article {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .related-article img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header text-center">
+            <h1>Artikel Edukasi</h1>
+            <p class="lead">Informasi dan pengetahuan terbaru di dunia pendidikan.</p>
+        </div>
+
+        <!-- Content -->
+        <div class="content mt-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Article -->
+                    <div class="card">
+                        <img src="images/artikel-image.jpg" class="card-img-top" alt="Artikel">
+                        <div class="card-body">
+                            <h2 class="card-title">Pentingnya Pendidikan di Era Modern</h2>
+                            <p class="card-text">Pendidikan adalah kunci utama dalam pembangunan karakter dan kecerdasan seseorang. Di era modern ini, pendidikan tidak hanya terbatas pada pembelajaran di kelas, tetapi juga melalui berbagai platform digital yang memudahkan akses ilmu pengetahuan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Sidebar -->
+                    <div class="sidebar">
+                        <h3>Artikel Terkait</h3>
+                        <div class="related-article">
+                            <img src="images/course-1.png" alt="Teknologi dalam Pendidikan">
+                            <a href="#">Teknologi dalam Pendidikan</a>
+                        </div>
+                        <div class="related-article">
+                            <img src="images/course-2.jpeg" alt="Metode Belajar Efektif">
+                            <a href="#">Metode Belajar Efektif</a>
+                        </div>
+                        <div class="related-article">
+                            <img src="images/course-3.jpeg" alt="Kisah Inspiratif Guru">
+                            <a href="#">Kisah Inspiratif Guru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer mt-4">
+            © 2024 Edukasi Website. All rights reserved.
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
